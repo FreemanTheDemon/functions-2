@@ -11,7 +11,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-// expression
+let expression;
 
 
 
@@ -26,7 +26,7 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-// arrow
+let arrow;
 // declaration
 // expression
 
@@ -51,7 +51,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration
+let declaration;
 // expression
 
 
@@ -64,7 +64,9 @@ function exclaimFour(str) {
 
 //CODE HERE
 
-
+const jsNinja = () => {
+  return 'I am a JavaScript ninja!';
+}
 
 ////////// PROBLEM 5 //////////
 
@@ -79,6 +81,11 @@ function exclaimFour(str) {
 
 //CODE HERE
 
+const compareNums = (num1, num2) => {
+  return (num1 > num2 ? num1 : num2);
+}
+
+console.log(compareNums(40, 40));
   
 ////////// PROBLEM 6 //////////
 
@@ -94,3 +101,7 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+
+const bestMovie = (title) => `${title} is the best movie ever!`;
+
+console.log(bestMovie('Lord of the Rings'));
